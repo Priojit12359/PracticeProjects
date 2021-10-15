@@ -30,7 +30,7 @@ public class ArithmeticCalculator {
 		} else if (userOption == 3) {
 			System.out.println("Multiplication Value : " + ac.multiplication(num));
 		} else if (userOption == 4) {
-			System.out.println("Multiplication Value : " + ac.division(num));
+			System.out.println("Division Value : " + ac.division(num));
 		} else {
 			System.out.println("incorrect option entry : terminating execution".toUpperCase());
 		}
